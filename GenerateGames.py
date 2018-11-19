@@ -53,7 +53,7 @@ while i < args.num:
             save_game_image(game)
             i += 1
     elif args.type == 3:
-        if len(list(filter(is_type1, sets))) == 0 and len(sets) == 1:
+        if len(list(filter(is_type3, sets))) == 1 and len(sets) == 1:
             print("Game contains one set of type 3")
             save_game_image(game)
             i += 1
